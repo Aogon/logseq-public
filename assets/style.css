@@ -30,6 +30,10 @@ a {
   text-underline-offset: 0.18em;
 }
 
+.wikilink {
+  font-weight: 600;
+}
+
 .site-shell {
   width: min(860px, calc(100% - 32px));
   margin: 40px auto 72px;
