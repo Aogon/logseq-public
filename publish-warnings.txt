@@ -1,6 +1,3 @@
-[2026_04_30]
-- NG word detected: くん
-
 [2026_04_29]
 - NG word detected: さん
 
