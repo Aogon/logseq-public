@@ -6,6 +6,3 @@
 
 [2026_04_21]
 - NG word detected: さん
-
-[2026_04_09]
-- NG word detected: さん

@@ -140,6 +140,42 @@ ol {
   border: 1px dashed var(--line);
 }
 
+.entry-nav {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.nav-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  background: rgba(255, 253, 248, 0.92);
+  text-decoration: none;
+  box-shadow: var(--shadow);
+}
+
+.nav-card-empty {
+  visibility: hidden;
+}
+
+.nav-card-right {
+  text-align: right;
+}
+
+.nav-label {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.nav-title {
+  color: var(--ink);
+  font-weight: 700;
+}
+
 @media (max-width: 640px) {
   .site-shell {
     width: min(100% - 20px, 860px);
@@ -151,5 +187,13 @@ ol {
   .entry-page,
   .entry-card {
     padding: 20px;
+  }
+
+  .entry-nav {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-card-right {
+    text-align: left;
   }
 }
